@@ -9,7 +9,7 @@ Prérequis
 Ce projet requiert un serveur web, avec php installé
 et configuré, ainsi qu'un serveur MySQL.
 
-```# apt-get install apache2 libapache2-mod-php5 php5-mysql mysql-server```
+```# apt-get install apache2 libapache2-mod-php5 php5-mysql php5-gd mysql-server```
 
 Installation
 ------------
@@ -39,7 +39,9 @@ CONF
 # Déployer le binaire "inv" dans un répertoire accessible et dans
   le path de l'utilisateur sous lequel tourne votre serveur web.
   
-  cp path/to/git/inv /usr/bin
+  ```# cp path/to/git/inv /usr/bin
+# chmod +x /usr/bin/inv
+```
 
 Sur votre poste
 ---------------
