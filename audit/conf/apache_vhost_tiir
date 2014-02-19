@@ -1,0 +1,6 @@
+<VirtualHost *:80>
+  ServerName tiir
+  DocumentRoot /var/www/tiir/audit/src/
+  CustomLog /var/log/apache2/tiir.log combined
+  ErrorLog /var/log/apache2/tiir-error.log
+</VirtualHost>
